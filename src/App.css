@@ -14,20 +14,157 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #F8FDFF;
+  padding-bottom: 40px;
+  position: relative;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
+.curve{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+.curve2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* z-index: 999; */
 
+}
 .App-link {
   color: #61dafb;
 }
+.auto-container{
+  max-width: 1440px;
+  width:100%;
+  margin: 0px auto;
+  /* padding: 0px 15px; */
+}
+.nav-item .nav-link{
+  position: relative;
+   margin-right: 30px;
+  padding: 10px 50px;
+  /* background-color: #007FF4; */
+  border-radius: 25px;
 
+}
+.nav-item .nav-link::after{
+ content: "";
+position: absolute;
+bottom: 0px;
+left: 0;
+display: inline-block;
+width:0px ;
+height: 5px;
+background-color: #007FF4;
+transition: all 0.5s; 
+}
+.contect{
+  margin-top: 7px;
+  margin-right: 20px;
+  padding: 10px 50px;
+  background-color: #007FF4;
+  border-radius: 25px;
+transition: all 0.5s;
+color:white;
+}
+.nav-item .nav-link:hover::after{
+width:100%
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #007FF4;
+}
+.bannerpara{
+  padding: 100px 20px;
+}
+.bannerpara p{
+  color: #002348;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.17px;
+  font-family: Source Sans Pro;
+}
+.bannerpara h1{
+  color:#003B79;
+  font-family: Source Sans Pro;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0px;
+/* text-align: left; */
+
+}
+.bannerpara .specialists{
+  font-family: Source Sans Pro;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.bannerimg{
+  height: 500px;
+max-width: 574px;
+width:100%;
+left: 745px;
+top: 141px;
+border-radius: 32px;
+background-color: #EBEEFF;
+padding: 40px 20px;
+
+
+}
+.servicepara{
+ /* max-width: 576px;
+ width: 100%; */
+  /* text-align: center; */
+  font-family: Source Sans Pro;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: center;padding-bottom: 50px;
+
+}
+.OurService1 h1{
+  font-family: Source Sans Pro;
+font-size: 54px;
+font-weight: 600;
+line-height: 78px;
+letter-spacing: 0px;
+text-align: center;
+color:#003B79;
+
+}
+.medicalimg{
+  display: inline-block;
+  text-align: center;
+  padding: 50px 15px;
+}
+.medicalimg p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.cardcolor{
+
+
+
+background: #007EF3;
+box-shadow: 0px 10px 50px 25px rgba(0, 126, 243, 0.26049);
+border-radius: 20px;
+}
+.cardcolor1{
+  box-shadow: 0px 10px 50px 25px rgba(0, 126, 243, 0.26049);
+  border-radius: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
