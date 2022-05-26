@@ -3,6 +3,7 @@ import './App.css';
 import Medical from "./Component/Medical";
 import Banner from "./Component/Banner";
 import OurService from "./Component/OurService";
+import Specialist from './Component/Specialist';
 function App() {
   return (
     <div className="auto-container">
@@ -16,6 +17,10 @@ function App() {
     <Medical />
  <Banner />
  <OurService />
+ <br></br>
+ <br></br>
+ <Specialist />
+ <Medical />
     </div>
     </div>
   );
