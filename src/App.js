@@ -4,6 +4,8 @@ import Medical from "./Component/Medical";
 import Banner from "./Component/Banner";
 import OurService from "./Component/OurService";
 import Specialist from './Component/Specialist';
+import Ourclient from './Component/Ourclient';
+import Subscribe from './Component/Subscribe';
 function App() {
   return (
     <div className="auto-container">
@@ -20,7 +22,9 @@ function App() {
  <br></br>
  <br></br>
  <Specialist />
- <Medical />
+ <Ourclient />
+ <Subscribe />
+ {/* <Medical /> */}
     </div>
     </div>
   );
