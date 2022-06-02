@@ -6,7 +6,7 @@ function Medical(){
 <div ClassName="App-header1">
     <div className="auto-container">
     <section>
-    <nav className="navbar navbar-expand-lg" >
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" >
     <a className="navbar-brand d-lg-none " href="#"><img src="Medicare+.png"></img></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
